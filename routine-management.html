@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Routine Management - Ahero Rice Farming</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Ahero Rice Farming</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seed-selection.html">Seed Selection</a></li>
+        <li><a href="nursery-preparation.html">Nursery</a></li>
+        <li><a href="seedbed-preparation.html">Seedbed</a></li>
+        <li><a href="planting.html">Planting</a></li>
+        <li><a href="routine-management.html" class="active">Management</a></li>
+        <li><a href="topdressing.html">Topdressing</a></li>
+        <li><a href="pest-disease-control.html">Pests</a></li>
+        <li><a href="weeding.html">Weeding</a></li>
+        <li><a href="bird-scaring.html">Bird Scaring</a></li>
+        <li><a href="harvesting.html">Harvesting</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Routine Management</p>
+        <h2>Maintaining healthy rice fields</h2>
+        <p>Routine management practices keep rice crops strong by protecting bunds, controlling weeds, and applying herbicides at the right time.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-content">
+            <h3>Bund maintenance</h3>
+            <p>Repair broken bunds and strengthen field edges to prevent water loss and ensure proper irrigation during the crop season.</p>
+            <ul>
+              <li>Repair broken bunds.</li>
+              <li>Strengthen field edges.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/band.png" alt="Bund maintenance" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Field tools</p>
+        <h2>Tools for rice field maintenance</h2>
+        <p>Simple tools are essential for everyday upkeep and efficient herbicide application.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="feature">
+          <h4>Panga</h4>
+          <p>Used for cutting grass, trimming weeds and maintaining bunds.</p>
+        </div>
+        <div class="feature">
+          <h4>Jembe</h4>
+          <p>Useful for breaking soil and repairing bunds by hand.</p>
+        </div>
+        <div class="feature">
+          <h4>Spade</h4>
+          <p>Helps with shaping bunds and moving soil for field repairs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up" style="background: transparent; padding-top: 0;">
+      <div class="section-header">
+        <p class="section-title">Herbicide application</p>
+        <h2>Protecting young rice from weeds</h2>
+        <p>Herbicides are used before and after emergence to support clean stands while reducing competition from weeds.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-content">
+            <h3>Pre-emergence herbicides</h3>
+            <p>Applied before rice seedlings emerge to control weeds early and reduce weed pressure in the field.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>Post-emergence herbicides</h3>
+            <p>Applied after rice seedlings are established to target growing weeds without harming the crop.</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-2" style="margin-top:2rem;">
+        <div class="card">
+          <img src="images/sprayer.png" alt="Sprayer" />
+        </div>
+        <div class="card">
+          <img src="images/herbicide.png" alt="Herbicides" />
+        </div>
+      </div>
+      <div class="video-card" style="margin-top:2rem;">
+        <img src="images/management.jpg" alt="Bund maintenance video" />
+        <div class="video-copy">
+          <h3>Bund maintenance and spraying</h3>
+          <p>Watch how farmers maintain bunds and apply herbicides safely to protect their rice crop.</p>
+          <button class="open-video" data-video="videos/weeding.mp4" data-title="Bund maintenance and herbicide spraying">Watch Video</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Field Management</h3>
+        <p>Routine care like bund repair and herbicide management keeps rice fields healthy throughout the season.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: management@aherorice.org</li>
+          <li>Phone: +254 706 789 012</li>
+          <li>Location: Ahero field services</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Bund care</a></li>
+          <li><a href="#">Herbicide safety</a></li>
+          <li><a href="#">Field tools</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close image">×</button>
+      <img id="lightbox-image" src="" alt="Expanded image" />
+    </div>
+  </div>
+
+  <div class="video-modal" aria-hidden="true">
+    <div class="video-modal-content">
+      <button class="video-modal-close" aria-label="Close video">×</button>
+      <h3 id="modal-video-title" style="color:#fff; margin-bottom:1rem;"></h3>
+      <video id="modal-video" controls preload="metadata"></video>
+    </div>
+  </div>
+
+  <button class="top-btn" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

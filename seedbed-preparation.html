@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seedbed Preparation - Ahero Rice Farming</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Ahero Rice Farming</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seed-selection.html">Seed Selection</a></li>
+        <li><a href="nursery-preparation.html">Nursery</a></li>
+        <li><a href="seedbed-preparation.html" class="active">Seedbed</a></li>
+        <li><a href="planting.html">Planting</a></li>
+        <li><a href="routine-management.html">Management</a></li>
+        <li><a href="topdressing.html">Topdressing</a></li>
+        <li><a href="pest-disease-control.html">Pests</a></li>
+        <li><a href="weeding.html">Weeding</a></li>
+        <li><a href="bird-scaring.html">Bird Scaring</a></li>
+        <li><a href="harvesting.html">Harvesting</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Seedbed Preparation</p>
+        <h2>Preparing the field to fine tilth</h2>
+        <p>The seedbed is prepared to create a soft, even surface for transplanting. Ahero farmers use ploughing, puddling and leveling to set the crop up for success.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-content">
+            <h3>Steps for seedbed preparation</h3>
+            <ol>
+              <li>Drain previous crop residues.</li>
+              <li>Plough field.</li>
+              <li>Flood the field.</li>
+              <li>Harrow the soil.</li>
+              <li>Puddle soil.</li>
+              <li>Level field.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/seedbed.jfif" alt="Seedbed preparation" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Farm machinery</p>
+        <h2>Tools used to build the seedbed</h2>
+        <p>Machinery speeds up land preparation and creates a better surface for transplanting rice seedlings.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <img src="images/tractor.png" alt="Tractor" />
+          <div class="card-content">
+            <h3>Tractor</h3>
+            <p>Provides power for ploughing and pulling field equipment.</p>
+            <p><strong>Advantage:</strong> faster field preparation.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/rotavator.png" alt="Rotavator" />
+          <div class="card-content">
+            <h3>Rotavator</h3>
+            <p>Creates fine tilth by grinding and mixing soil particles.</p>
+            <p><strong>Advantage:</strong> ideal for smooth, even seedbeds.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/leveller.jpg" alt="leveller" />
+          <div class="card-content">
+            <h3>Leveller</h3>
+            <p>Smooths the field surface for uniform water distribution and transplanting.</p>
+            <p><strong>Advantage:</strong> reduces potholes and improves crop emergence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up" style="background: transparent; padding-top: 0;">
+      <div class="section-header">
+        <p class="section-title">Field videos</p>
+        <h2>Ploughing, harrowing and leveling</h2>
+        <p>Modern machines and careful fieldwork prepare the rice seedbed in Ahero.</p>
+      </div>
+      <div class="video-card">
+        <img src="images/seedbed.jpg" alt="Field preparation video" />
+        <div class="video-copy">
+          <p>Watch the sequence of ploughing, harrowing and leveling that creates the ideal rice seedbed.</p>
+          <button class="open-video" data-video="videos/planting.mp4" data-title="Ploughing, harrowing, levelling">Watch Video</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>About Seedbed Preparation</h3>
+        <p>Fine tilth and a level field are essential for water management and uniform transplanting in irrigated rice production.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: operations@aherorice.org</li>
+          <li>Phone: +254 704 567 890</li>
+          <li>Location: Ahero field office</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Soil tillage</a></li>
+          <li><a href="#">Land leveling</a></li>
+          <li><a href="#">Irrigation readiness</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close image">×</button>
+      <img id="lightbox-image" src="" alt="Expanded image" />
+    </div>
+  </div>
+
+  <div class="video-modal" aria-hidden="true">
+    <div class="video-modal-content">
+      <button class="video-modal-close" aria-label="Close video">×</button>
+      <h3 id="modal-video-title" style="color:#fff; margin-bottom:1rem;"></h3>
+      <video id="modal-video" controls preload="metadata"></video>
+    </div>
+  </div>
+
+  <button class="top-btn" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bird Scaring - Ahero Rice Farming</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Ahero Rice Farming</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seed-selection.html">Seed Selection</a></li>
+        <li><a href="nursery-preparation.html">Nursery</a></li>
+        <li><a href="seedbed-preparation.html">Seedbed</a></li>
+        <li><a href="planting.html">Planting</a></li>
+        <li><a href="routine-management.html">Management</a></li>
+        <li><a href="topdressing.html">Topdressing</a></li>
+        <li><a href="pest-disease-control.html">Pests</a></li>
+        <li><a href="weeding.html">Weeding</a></li>
+        <li><a href="bird-scaring.html" class="active">Bird Scaring</a></li>
+        <li><a href="harvesting.html">Harvesting</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Bird Scaring</p>
+        <h2>Protecting maturing rice from birds</h2>
+        <p>Bird scaring is important during the last weeks before harvest. Farmers use a mix of methods to keep birds away from ripening rice and protect farm income.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <h4>Duration</h4>
+          <p>Scaring is usually done for 3–4 weeks until harvesting begins.</p>
+        </div>
+        <div class="feature">
+          <h4>Timing</h4>
+          <p>Start bird scaring when the crop begins to head and grain begins to ripen.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Bird scaring methods</p>
+        <h2>Techniques used in rice fields</h2>
+        <p>Multiple deterrents help keep birds away from the crop, reducing damage to the grain during the critical maturation period.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <img src="images/drums.png" alt="Drums" />
+          <div class="card-content">
+            <h3>Drums</h3>
+            <p>Loud sounds drive birds away from fields. Drums are an effective, low-cost scaring tool.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/tin cans.png" alt="Tin cans" />
+          <div class="card-content">
+            <h3>Tin cans</h3>
+            <p>Reflective, rattling cans make noise and movement to frighten birds from the crop.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/flags.png" alt="Flags" />
+          <div class="card-content">
+            <h3>Flags</h3>
+            <p>Bright flags flap in the wind and create motion that birds avoid.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/scarecrow.png" alt="Scarecrow" />
+          <div class="card-content">
+            <h3>Scarecrows</h3>
+            <p>Traditional scarecrows mimic people and can help deter birds when regularly moved.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/reflective tapes.png" alt="Reflective tapes" />
+          <div class="card-content">
+            <h3>Reflective tapes</h3>
+            <p>Glinting strips catch sunlight and create visual disturbance to keep birds away.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/human scaring.png" alt="Human bird scaring" />
+          <div class="card-content">
+            <h3>Human scaring</h3>
+            <p>Farmers walking through fields and making noise are the most reliable bird deterrent.</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-card" style="margin-top:2rem;">
+        <img src="images/birds.jpg" alt="Bird scaring video" />
+        <div class="video-copy">
+          <h3>Bird scaring in action</h3>
+          <p>Watch farmers use scarecrows and noise to protect rice from birds during the final crop stage.</p>
+          <button class="open-video" data-video="videos/bird-scaring.mp4" data-title="Bird scaring demonstrations">Watch Video</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>About Bird Scaring</h3>
+        <p>Maintaining active bird scaring during ripening protects grain from loss and helps farmers harvest a larger crop.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: birds@aherorice.org</li>
+          <li>Phone: +254 710 123 456</li>
+          <li>Location: Ahero field protection</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Bird deterrents</a></li>
+          <li><a href="#">Field protection</a></li>
+          <li><a href="#">Harvest readiness</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close image">×</button>
+      <img id="lightbox-image" src="" alt="Expanded image" />
+    </div>
+  </div>
+
+  <div class="video-modal" aria-hidden="true">
+    <div class="video-modal-content">
+      <button class="video-modal-close" aria-label="Close video">×</button>
+      <h3 id="modal-video-title" style="color:#fff; margin-bottom:1rem;"></h3>
+      <video id="modal-video" controls preload="metadata"></video>
+    </div>
+  </div>
+
+  <button class="top-btn" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

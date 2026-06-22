@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planting - Ahero Rice Farming</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Ahero Rice Farming</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seed-selection.html">Seed Selection</a></li>
+        <li><a href="nursery-preparation.html">Nursery</a></li>
+        <li><a href="seedbed-preparation.html">Seedbed</a></li>
+        <li><a href="planting.html" class="active">Planting</a></li>
+        <li><a href="routine-management.html">Management</a></li>
+        <li><a href="topdressing.html">Topdressing</a></li>
+        <li><a href="pest-disease-control.html">Pests</a></li>
+        <li><a href="weeding.html">Weeding</a></li>
+        <li><a href="bird-scaring.html">Bird Scaring</a></li>
+        <li><a href="harvesting.html">Harvesting</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Planting</p>
+        <h2>Transplanting rice seedlings</h2>
+        <p>Planting is done when seedlings are 3 to 4 weeks old. Careful hand transplanting into rows ensures plants grow evenly and access water uniformly.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-content">
+            <h3>Seedling age</h3>
+            <p>Seedlings should be 3 to 4 weeks old before transplanting. They should be strong, healthy and well-rooted.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/planting.png" alt="Planting rice seedlings" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up">
+      <div class="section-header">
+        <p class="section-title">Planting method</p>
+        <h2>Manual transplanting in rows</h2>
+        <p>Ahero farmers uproot seedlings carefully and transplant them in rows. This ensures good spacing, easy water control and simpler weeding.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-content">
+            <h3>Procedure</h3>
+            <ul>
+              <li>Transplant by hand.</li>
+              <li>Carefully remove seedlings from nursery.</li>
+              <li>Plant seedlings in rows.</li>
+              <li>Maintain even depth and spacing.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/transplanting.png" alt="Transplanting rice" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-up" style="background: transparent; padding-top: 0;">
+      <div class="section-header">
+        <p class="section-title">Recommended spacing</p>
+        <h2>Spacing for healthy rice stands</h2>
+        <p>Proper spacing gives each plant access to nutrients, sunlight and water while reducing competition between plants.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <h4>20 cm × 20 cm</h4>
+          <p>Standard spacing for good tillering and easy field movement.</p>
+        </div>
+        <div class="feature">
+          <h4>20 cm × 15 cm</h4>
+          <p>Tighter spacing for higher plant density and maximum yield when conditions are favorable.</p>
+        </div>
+      </div>
+      <div class="video-card" style="margin-top:2rem;">
+        <img src="images/planting.jpg" alt="Farmers transplanting rice" />
+        <div class="video-copy">
+          <h3>Planting demonstration</h3>
+          <p>Watch farmers transplant rice seedlings and learn how row planting supports strong crop development.</p>
+          <button class="open-video" data-video="videos/planting.mp4" data-title="Rice transplanting demonstration">Watch Video</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>About Planting</h3>
+        <p>Transplanting at the right age and spacing is vital to healthy rice stands and high yield.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: planting@aherorice.org</li>
+          <li>Phone: +254 705 678 901</li>
+          <li>Location: Ahero agronomy center</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Transplanting tips</a></li>
+          <li><a href="#">Seedling care</a></li>
+          <li><a href="#">Spacing guides</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close image">×</button>
+      <img id="lightbox-image" src="" alt="Expanded image" />
+    </div>
+  </div>
+
+  <div class="video-modal" aria-hidden="true">
+    <div class="video-modal-content">
+      <button class="video-modal-close" aria-label="Close video">×</button>
+      <h3 id="modal-video-title" style="color:#fff; margin-bottom:1rem;"></h3>
+      <video id="modal-video" controls preload="metadata"></video>
+    </div>
+  </div>
+
+  <button class="top-btn" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
